@@ -1,0 +1,49 @@
+:root {
+    --body: #e4edf5;
+    --black: #06070a;
+    --darkgray: #1e1f26;
+}
+body{
+    background-color: var(--body);
+}
+/* telephone conatainer */
+.telephone{
+    background-color: #fff;
+    width: 400px;
+    padding: 20px;
+    margin: 30px auto;
+    height: 460px;
+    text-align: center;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+p input{
+    font-size: 1.2rem;
+    height: 40px;
+    width: 360px;
+    font-weight: 300;
+    color: var(--black);
+}
+p{
+    margin:10px;
+}
+button{
+    width: 110px;
+    height:60px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-align: center;
+}
+small {
+    font-size: 0.8rem;
+    display: block;
+    color: var(--darkgray);
+}
+/* footer */
+footer{
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--darkgray);
+}
+footer a{
+    color: var(--darkgray);
+}
